@@ -1,0 +1,192 @@
+{
+	"info": {
+		"_postman_id": "eb478829-4ca4-40aa-8ae0-f3c5be49d05c",
+		"name": "BACKEND-PADEPOKAN",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Nasabah",
+			"item": [
+				{
+					"name": "create-nasabah",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"test\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/nasabah/create",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"nasabah",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "remove-nasabah",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/nasabah/remove/6",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"nasabah",
+								"remove",
+								"6"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update-nasabah",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"test-test-test\",\n    \"accountId\": 6\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/nasabah/update",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"nasabah",
+								"update"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Transaksi",
+			"item": [
+				{
+					"name": "create-transaction",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"accountId\": 5,\n    \"transactionDate\": \"2023-03-01\",\n    \"description\": \"Bayar Listrik\",\n    \"paymentType\": \"AA\",\n    \"amount\": 111000\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/transaction/create",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"transaction",
+								"create"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Report",
+			"item": [
+				{
+					"name": "get-report",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"accountId\": 1,\n    \"startDate\": \"26-03-2023\",\n    \"endDate\": \"30-03-2023\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/report/print-report",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"report",
+								"print-report"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Point",
+			"item": [
+				{
+					"name": "remove-nasabah Copy",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/point/display",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"point",
+								"display"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
