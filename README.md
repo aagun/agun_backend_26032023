@@ -11,11 +11,11 @@ Program ini diperuntukan demi memenuhi persyaratan rekrutment yang diselenggarak
 2. Eksekusi ```db_padepokan_tujuh_sembilan.sql``` menggunakan SQl Server Management Studio atau Azure Data Studio.
 
 3. Buka file ```path-to/agun_backend_26032023/src/main/resource/application.properties```. Kemudian sesuaikan username, password dan url database.
-```spring.datasource.url=jdbc:sqlserver://URL_DB_KAMU:PORT_DB_KAMU;encrypt=true;trustServerCertificate=true;databaseName=Padepokan_Tujuh_Sembilan```
+    ```spring.datasource.url=jdbc:sqlserver://URL_DB_KAMU:PORT_DB_KAMU;encrypt=true;trustServerCertificate=true;databaseName=Padepokan_Tujuh_Sembilan```
 
-```spring.datasource.username=USERNAME_DB_KAMU```
+    ```spring.datasource.username=USERNAME_DB_KAMU```
 
-```spring.datasource.password=PASSWORD_DB_KAMU```
+    ```spring.datasource.password=PASSWORD_DB_KAMU```
 
 4. Jalankan perintah berikut pada ``terminal`` atau ```cmd```
 
