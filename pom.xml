@@ -15,7 +15,7 @@
 	<name>padepokan</name>
 	<description>Backend Test Padepokan Tujuh Sembilan</description>
 	<properties>
-		<java.version>1.8</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
