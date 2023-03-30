@@ -18,7 +18,7 @@ Program ini diperuntukan demi memenuhi persyaratan rekrutment yang diselenggarak
     ```spring.datasource.password=PASSWORD_DB_KAMU```
 
 4. Jalankan perintah berikut pada ``terminal`` atau ```cmd```
-
+    ```mnv clean package -DskipTests```
     ```mnv spring-boot:run```
 
 5. Tunggu proses hingga selesai, kemudian buka aplikasi postman lalu import file ```api_document.postman_collection.json```
