@@ -17,7 +17,8 @@ Program ini diperuntukan demi memenuhi persyaratan rekrutment yang diselenggarak
 
     ```spring.datasource.password=PASSWORD_DB_KAMU```
 
-4. Jalankan perintah berikut pada ``terminal`` atau ```cmd```
+4. Buka ``terminal`` atau ``cmd`` ketika perintah berikut
+    ``` cd path-to/agun_backend_26032023```
     ```./mvnw clean package -DskipTests```
     ```./mvnw spring-boot:run```
 
