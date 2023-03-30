@@ -1,7 +1,7 @@
 
 # agun_backend_26032023
 
-Program ini diperuntukan demi memenuhi persyaratan rekrutment yang diselenggarakan oleh PT Padepokan Tujuh Sembilan. Teknologi yang digunakan ketika melakukan development aplikasi ini antara lain Java8, SpringBoot 3 dan SQL Server.
+Program ini diperuntukan demi memenuhi persyaratan rekrutment yang diselenggarakan oleh PT Padepokan Tujuh Sembilan. Teknologi yang digunakan ketika melakukan development aplikasi ini antara lain Java-17, SpringBoot 3 dan SQL Server.
 
 
 ## Installation
